@@ -1,0 +1,24 @@
+﻿.container {
+    margin: 0px;
+    padding: 0px;
+    width: 1000px;
+    height: 600px;
+    background-color: aquamarine;
+    padding: 0px 25px 4px 25px;
+    border-color: black;
+    border-style: solid;
+    position: relative;
+}
+
+.postava {
+    padding: 0px;
+    filter: grayscale(0);
+    transform: rotateY(0deg);
+    position: absolute;
+    cursor: pointer;
+    left: 350px;
+    top: 80px;
+    opacity: 0.91;
+    transition: 3s;
+    width: 300px;
+}
